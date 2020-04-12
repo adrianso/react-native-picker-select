@@ -10,10 +10,10 @@ import {
     View,
 } from 'react-native';
 import Modal from 'react-native-modal';
+import { Picker } from '@react-native-community/picker';
 import PropTypes from 'prop-types';
 import isEqual from 'lodash.isequal';
 import { defaultStyles } from './styles';
-import { Picker } from '@react-native-community/picker';
 
 export default class RNPickerSelect extends PureComponent {
     static propTypes = {
